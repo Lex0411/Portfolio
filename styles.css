@@ -321,10 +321,75 @@ a {
 }
 
 @media (max-width: 900px) {
-    .hero-grid { grid-template-columns: 1fr; }
-    .cards { grid-template-columns: 1fr 1fr; }
+    .nav {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 0.8rem;
+    }
+    
+    .nav > li:first-child {
+        margin-right: 0;
+        flex-basis: 100%;
+        text-align: center;
+    }
+    
+    .hero-grid {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .profile img {
+        max-width: 280px;
+        margin: 0 auto;
+    }
+    
+    .cards {
+        grid-template-columns: 1fr;
+    }
+    
+    .card {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+    
+    .card img {
+        max-width: 100%;
+        margin: 0 auto;
+    }
+    
+    .card-body .btn {
+        justify-self: center;
+    }
 }
 
 @media (max-width: 560px) {
+    .chips {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
+    }
+    
+    .skill-logo {
+        width: 60px;
+        height: 60px;
+    }
+    
+    .nav {
+        gap: 0.5rem;
+    }
+    
+    .nav a {
+        font-size: 0.9rem;
+        padding: 0.3rem 0.5rem;
+    }
+
     .cards { grid-template-columns: 1fr; }
+}
+
+/* Prevent horizontal scrolling */
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    max-width: 100%;
 }
