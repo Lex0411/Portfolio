@@ -333,32 +333,7 @@ a {
   .container {
     padding: 0 1rem;
   }
-  
-  /* Navigation */
-  .nav {
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 0.5rem;
-  }
-  
-  .nav > li:first-child {
-    margin-right: 0;
-    flex-basis: 100%;
-    text-align: center;
-  }
-  
-  .nav a {
-    padding: 0.5rem;
-    font-size: 0.9rem;
-  }
-  
-  /* Hero section */
-  .hero-grid {
-    grid-template-columns: 1fr;
-    text-align: center;
-    gap: 2rem;
-  }
-  
+
   .profile img {
     max-width: 280px;
     margin: 0 auto;
@@ -371,25 +346,22 @@ a {
   .lead {
     font-size: 1.2rem;
   }
-  
-  /* Project cards */
+
   .cards {
     grid-template-columns: 1fr;
   }
   
   .card {
     grid-template-columns: 1fr;
-    text-align: center;
   }
   
   .card img {
     max-width: 100%;
     margin: 0 auto;
   }
-  
-  /* Skills section */
+
   .chips {
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 1rem;
   }
   
@@ -398,36 +370,11 @@ a {
     height: 60px;
   }
   
-  /* Section spacing */
   .section {
     padding: 3rem 0;
   }
   
   .section-title {
     font-size: 1.8rem;
-  }
-}
-
-@media (max-width: 480px) {
-  /* Further adjustments for very small screens */
-  .chips {
-    grid-template-columns: 1fr;
-  }
-  
-  .nav {
-    flex-direction: column;
-    align-items: center;
-  }
-  
-  .nav li {
-    margin: 0.3rem 0;
-  }
-  
-  #intro-title {
-    font-size: 1.8rem;
-  }
-  
-  .lead {
-    font-size: 1.1rem;
   }
 }
