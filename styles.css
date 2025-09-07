@@ -321,7 +321,7 @@ a {
 }
 
 @media (max-width: 900px) {
-    .card { grid-template-columns: 1fr; }
+    .cards { grid-template-columns: 1fr 1fr; }
     .nav {
         flex-wrap: no-wrap;
         justify-content: center;
@@ -347,5 +347,11 @@ a {
         height: 60px;
     }
     .cards { grid-template-columns: 1fr; }
+    .card { grid-template-columns: 1fr; }
+    .card img {
+        max-width: 100%;
+        margin: 0 auto;
+  }
 }
+
 
