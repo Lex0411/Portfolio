@@ -319,9 +319,3 @@ a {
 #contact a:hover {
     color: var(--brand-dark);
 }
-
-@media (max-width: 560px) {
-    .hero-grid {
-        grid-template-columns: minmax(110px, 160px) 1fr;
-    }
-}
