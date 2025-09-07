@@ -321,13 +321,7 @@ a {
 }
 
 @media (max-width: 900px) {
-    .card {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-    .card-body .btn {
-        justify-self: center;
-    }
+    .card { grid-template-columns: 1fr; }
     .nav {
         flex-wrap: no-wrap;
         justify-content: center;
@@ -354,3 +348,4 @@ a {
     }
     .cards { grid-template-columns: 1fr; }
 }
+
