@@ -320,18 +320,10 @@ a {
     color: var(--brand-dark);
 }
 
-@media (max-width: 900px) {
-    .hero-grid { grid-template-columns: 1fr; }
-    .cards { grid-template-columns: 1fr 1fr; }
-}
-
-@media (maw-width: 560px) {
-    .cards { grid-template-columns: 1fr; }
-}
-
 @media (max-width: 800px) {
   body {
     transform: scale(0.7);        
     transform-origin: top center;
   }
 }
+
