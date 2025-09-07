@@ -354,10 +354,3 @@ a {
     }
     .cards { grid-template-columns: 1fr; }
 }
-
-body {
-    overflow-x: hidden;
-}
-
-
-
