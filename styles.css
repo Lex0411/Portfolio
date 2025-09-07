@@ -14,7 +14,7 @@ html { scroll-behavior: smooth;}
     --space-3: 1.5rem;
     --space-4: 2rem;
     --space-6: 3rem;
-    --maxw: 1200px;
+    --maxw: 1500px;
 }
 
 body {
@@ -353,6 +353,7 @@ a {
         margin: 0 auto;
   }
 }
+
 
 
 
