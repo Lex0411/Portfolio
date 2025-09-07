@@ -321,17 +321,10 @@ a {
 }
 
 @media (max-width: 900px) {
-  body {
-    transform: scale(1);        
-    transform-origin: top center;
-  }
+    .hero-grid { grid-template-columns: 1fr; }
+    .cards { grid-template-columns: 1fr 1fr; }
 }
 
 @media (max-width: 560px) {
-  body {
-    transform: scale(0.9);        
-    transform-origin: top center;
-  }
+    .cards { grid-template-columns: 1fr; }
 }
-
-
