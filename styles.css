@@ -327,97 +327,11 @@ a {
 
 @media (maw-width: 560px) {
     .cards { grid-template-columns: 1fr; }
-    .hero-grid {
-        grid-template-columns: minmax(100px, 200px) 1fr;
-        gap: 1rem;
-    }
-    
-    #intro-title {
-        font-size: 1.8rem;
-    }
-    
-    .lead {
-        font-size: 1rem;
-    }
-    
-    /* Project cards */
-    .card {
-        grid-template-columns: 1fr;
-        text-align: center;
-    }
-    
-    .card img {
-        max-width: 80%;
-        margin: 0 auto;
-    }
-    
-    /* Skills section */
-    .chips {
-        grid-template-columns: 1fr;
-    }
-    
-    /* Navigation */
-    .nav {
-        flex-direction: column;
-        align-items: center;
-        gap: 0.5rem;
-    }
-    
-    .nav > li:first-child {
-        order: -1;
-        margin-bottom: 0.5rem;
-    }
 }
 
-@media (max-width: 900px) {
-  .container {
-    padding: 0 1rem;
-  }
-
-  .profile img {
-    max-width: 280px;
-    margin: 0 auto;
-  }
-  
-  #intro-title {
-    font-size: 2.2rem;
-  }
-  
-  .lead {
-    font-size: 1.2rem;
-  }
-
-  .cards {
-    grid-template-columns: 1fr;
-  }
-  
-  .card {
-    grid-template-columns: 1fr;
-  }
-  
-  .card img {
-    max-width: 100%;
-    margin: 0 auto;
-  }
-
-  .chips {
-    grid-template-columns: repeat(3, 1fr);
-    gap: 1rem;
-  }
-  
-  .skill-logo {
-    width: 60px;
-    height: 60px;
-  }
-  
-  .section {
-    padding: 2rem 2;
-  }
-  
-  .section-title {
-    font-size: 1.8rem;
+@media (max-width: 800px) {
+  body {
+    transform: scale(0.7);        
+    transform-origin: top center;
   }
 }
-
-
-
