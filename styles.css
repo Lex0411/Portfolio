@@ -371,10 +371,11 @@ a {
   }
   
   .section {
-    padding: 3rem 0;
+    padding: 1rem 0;
   }
   
   .section-title {
     font-size: 1.8rem;
   }
 }
+
