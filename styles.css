@@ -322,15 +322,16 @@ a {
 
 @media (max-width: 900px) {
   body {
-    transform: scale(0.9);        
+    transform: scale(1);        
     transform-origin: top center;
   }
 }
 
 @media (max-width: 560px) {
   body {
-    transform: scale(0.7);        
+    transform: scale(0.9);        
     transform-origin: top center;
   }
 }
+
 
