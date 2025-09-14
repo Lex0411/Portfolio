@@ -356,7 +356,7 @@ a {
 @media (max-width: 900px) {
     .cards { grid-template-columns: 1fr 1fr; }
     .nav {
-        flex-wrap: no-wrap;
+        flex-wrap: wrap;   /* instead of no-wrap */
         justify-content: center;
         gap: 0.3rem;
     }
@@ -371,7 +371,7 @@ a {
         gap: 1rem;
     }
     .nav {
-        flex-wrap: nowrap;
+        flex-wrap: wrap;   /* instead of no-wrap */
         justify-content: center;
         gap: 0.1rem;
     }
@@ -386,4 +386,5 @@ a {
         margin: 0 auto;
   }
 }
+
 
