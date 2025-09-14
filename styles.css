@@ -357,8 +357,14 @@ a {
     .cards { grid-template-columns: 1fr 1fr; }
     .nav {
         flex-wrap: wrap;
+        justify-content: center;
         gap: 0.3rem;
     }
+    .nav a,
+    .theme-toggle {
+          flex: 0 1 auto;
+    }
+
 }
 
 @media (max-width: 560px) {
@@ -370,8 +376,13 @@ a {
         gap: 1rem;
     }
     .nav {
-        flex-wrap: wrap; 
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 0.1rem;
+    }
+    .nav a,
+    .theme-toggle {
+          flex: 0 1 auto;
     }
     .skill-logo {
         width: 60px;
@@ -384,6 +395,7 @@ a {
         margin: 0 auto;
   }
 }
+
 
 
 
